@@ -1,4 +1,4 @@
-# Semester 2 Plan
+# Semester 2 Plan -> [View Live](https://shivam-pandya-8118.github.io/CUSP_07_Sem_02_Plan_TimeTable/)
 
 ## Overview
 
