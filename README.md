@@ -15,7 +15,6 @@ This project provides a structured academic plan for Semester 2 at **C. U. Shah 
 
 - **HTML**: Structure of the webpage.
 - **CSS**: Basic styling and formatting.
-- **Google Fonts**: Roboto for better readability.
 
 ## Installation & Usage
 
