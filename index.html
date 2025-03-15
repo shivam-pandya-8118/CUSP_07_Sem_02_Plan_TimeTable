@@ -5,11 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Semester 2 Plan + Time Table</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet" />
-    <link rel="shortcut icon" href="./FavIcon.svg" type="image/x-icon">
+    <!-- Using system fonts instead of Google Fonts -->
     <style>
         ::-webkit-scrollbar {
             width: 0.6rem;
@@ -23,7 +19,7 @@
         }
 
         * {
-            font-family: "Roboto", serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
             text-align: center;
         }
 
@@ -36,6 +32,25 @@
 
         .text_bold {
             font-weight: bold;
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 95%;
+            max-width: 1200px;
+        }
+
+        body {
+            padding: 10px;
+        }
+
+        /* Make tables responsive for small screens */
+        @media (max-width: 768px) {
+            table {
+                display: block;
+                overflow-x: auto;
+            }
         }
     </style>
 </head>
@@ -231,8 +246,7 @@
             <td class="text_bold">11:30(AM) - 12:30(PM)</td>
             <td rowspan="2">[Lab] Electronics Workshop and Practice (2A1:RPS, 2A2:DGG) (Main-121) | [Lab]
                 Electronics Workshop
-                and
-                Practice (2A3:KJP) (Main-115) </td>
+                and Practice (2A3:KJP) (Main-115) </td>
             <td>Environment Sustainability (RPS) (Main-315)</td>
             <td rowspan="2">[Lab] Integrated Personality Development Course (1A1:KHP, 1A2:GJR, 1A3:DGG) (Main-315)
             </td>
@@ -278,12 +292,6 @@
             <td></td>
         </tr>
     </table>
-    <!-- <table>
-    <tr>
-      <th>Subject Name</th>
-      <th>Faculty Name</th>
-    </tr>
-  </table> -->
 </body>
 
 </html>
